@@ -1,10 +1,10 @@
 body {
-	font-family: Gotham, san-serif;
+	font-family: Arial, san-serif;
 	text-align: center;
-	background: "images/wander.jpg";
+	background: url("https://imgur.com/a/rlbBL");
 	background-size: cover;
 }
 h1 {
-	background:#000;
-	color:#fff; 
+	background: #000;
+	color: #fff; 
 }
