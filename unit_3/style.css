@@ -1,10 +1,6 @@
 body {
 	text-align: center;
-	background-image: url("https://i.imgur.com/lEC1gBQ.jpg");
-	background-size: cover;
+	background-color: black;
+	color: white;
 	font-family: Gotham, san-serif;
-}
-h1 {
-	background: black;
-	color: white; 
 }
