@@ -1,8 +1,9 @@
 body {
 	font-family: Gotham, san-serif;
 	text-align: center;
+	background: "images/wander.jpg";
+	background-size: cover;
 }
-
 h1 {
 	background:#000;
 	color:#fff; 
