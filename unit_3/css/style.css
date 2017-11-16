@@ -1,9 +1,13 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	text-align: center;
-	background-image: url("https://i.imgur.com/lEC1gBQ.jpg");
-	background-size: cover;
-	font-family: Gotham, san-serif;
-	color: white;
+	font-family:Gotham, sans-serif;
+}
+nav {
+	background:rgba(0,0,0,0.5);
+}
+nav a {
+	display:inline-block;
+	padding:1em;
 }
 h1 {
 	background-color: black;
@@ -12,11 +16,11 @@ h1 {
 h3 {
 	font-size: 24px;
 }
-ul{
-	padding: 10px;
-	background:rgba(0,0,0,0.5);
-}
-li{
-	display: inline;
-	padding: 0px 10px 0px 10px;
+#intro {
+	text-align: center;
+	background-image: url("https://i.imgur.com/lEC1gBQ.jpg");
+	background-size: cover;
+	font-family: Gotham, sans-serif;
+	color: white;
+	padding: 8em 0;
 }
