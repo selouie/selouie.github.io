@@ -2,14 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
 * { margin:0; padding:0; box-sizing:border-box; }
 @font-face {
-font-family: Shorthalt;
-src: url(fonts/Shorthalt);
+font-family: Shorthalt Thin;
+src: url(fonts/Shorthalt_thin);
 }
 
 header {
-	font-family: Shorthalt, cursive, sans-serif;
+	font-family: Shorthalt Thin, cursive, sans-serif;
 	color: black;
 	text-align: center;
+}
+
+h1{
 	font-size: 96px;
 }
 
@@ -21,6 +24,7 @@ nav a {
 	display:inline-block;
 	padding:1em;
 	font-family: 'Amatic SC', cursive;
+	font-size: 24px;
 }
 
 article{
@@ -33,7 +37,7 @@ footer{
 
 #intro {
 	text-align: center;
-	font-family: Gotham, sans-serif;
-	color: white;
+	font-family: 'Amatic SC', cursive
+	color: black;
 	padding: 8em 0;
 }
