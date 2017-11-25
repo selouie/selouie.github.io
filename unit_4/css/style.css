@@ -12,28 +12,21 @@ header {
 	text-align: center;
 	font-size: 96px;
 }
+
 nav {
 	background:rgba(0,0,0,0.5);
 }
+
 nav a {
 	display:inline-block;
-	padding:2em;
+	padding:1em;
 	font-family: 'Amatic SC', cursive;
 }
-h1 {
-	font-family: 'Amatic SC', cursive;
-	color: black;
-	font-size: 48px;
+
+article{
+	font-family:'Karla', sans-serif;
 }
-p {
-	font-family: 'Karla', sans-serif;
-}
-h3 {
-	font-size: 24px;
-}
-#intro {
-	text-align: center;
-	font-family: Gotham, sans-serif;
-	color: white;
-	padding: 8em 0;
+
+footer{
+	text-align:center;
 }
