@@ -1,18 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Karla');
 * { margin:0; padding:0; box-sizing:border-box; }
+@font-face {
+font-family: Shorthalt;
+src: url(fonts/Shorthalt);
+}
+
+header {
+	font-family: Shorthalt, cursive, sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 96px;
+}
 nav {
 	background:rgba(0,0,0,0.5);
 }
 nav a {
 	display:inline-block;
-	padding:1em;
+	padding:2em;
 	font-family: 'Amatic SC', cursive;
 }
 h1 {
 	font-family: 'Amatic SC', cursive;
-	color: white;
-	background-color: black;
+	color: black;
 	font-size: 48px;
 }
 p {
