@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+* { margin:0; padding:0; box-sizing:border-box; }
+nav {
+	background:rgba(0,0,0,0.5);
+}
+nav a {
+	display:inline-block;
+	padding:1em;
+	font-family: 'Amatic SC', cursive;
+}
+h1 {
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	background-color: black;
+	font-size: 48px;
+}
+p {
+	font-family: 'Karla', sans-serif;
+}
+h3 {
+	font-size: 24px;
+}
+#intro {
+	text-align: center;
+	font-family: Gotham, sans-serif;
+	color: white;
+	padding: 8em 0;
+}
