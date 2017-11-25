@@ -6,10 +6,11 @@ font-family: Shorthalt Thin;
 src: url(fonts/Shorthalt_thin);
 }
 
-header {
+#logotitle {
 	font-family: Shorthalt Thin, cursive, sans-serif;
 	color: black;
 	text-align: center;
+	font-size: 48px;
 }
 
 nav {
@@ -25,12 +26,23 @@ nav a {
 
 h1{
 	font-family: 'Amatic SC', cursive;
-	font-size: 36px;
+	font-size: 24px;
+}
+
+#intro {
+	text-align: center;
+	font-family: 'Karla', sans-serif;
+	padding: 8em 0;
 }
 
 h2{
 	font-family: 'Amatic SC', cursive;
-	font-size: 18px;
+	font-size: 24px;
+}
+
+h3{
+	font-family:'Karla', sans-serif;
+	font-size:18px;
 }
 
 p{
