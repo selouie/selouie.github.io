@@ -6,6 +6,10 @@ font-family: Shorthalt Thin;
 src: url(fonts/Shorthalt_thin);
 }
 
+#wrapper{
+	width: 960px;
+}
+
 header{
 	text-align:center;
 }
