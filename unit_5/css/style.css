@@ -10,16 +10,9 @@ src: url(fonts/Shorthalt_thin);
 	width: 960px;
 }
 
-header{
-	text-align:center;
-}
-
-header h1{
-	font-family: Shorthalt Thin, cursive, sans-serif;
-	color: black;
-	text-align: center;
-	font-size: 96px;
-	padding: .5em;
+header img{
+	align-content: center;
+	padding: 1em;
 }
 
 nav {
