@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-@import url('https://fonts.googleapis.com/css?family=Karla');
-@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Karla|Sacramento');
 * { margin:0; padding:0; box-sizing:border-box; }
 
 
@@ -14,7 +12,7 @@ header{
 	text-align:center;
 }
 header h1{
-	font-family: 'Clicker Script', cursive;
+	font-family: 'Sacramento', cursive;
 	padding: 1em;
 }
 
@@ -47,13 +45,13 @@ nav a {
 #intro {
 	font-family: 'Karla', sans-serif;
 	padding: 8em 0;
-	margin: 18px;
+	margin: 36px;
 }
 
 #featured {
 	font-family:'Karla', sans-serif;
 	font-size:14px;
-	margin:18px;
+	margin:36px;
 }
 
 #featured h2{
