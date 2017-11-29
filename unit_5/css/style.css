@@ -10,6 +10,9 @@ src: url(fonts/Shorthalt_thin);
 	width: 960px;
 }
 
+header{
+	text-align:center;
+}
 header img{
 	align-content: center;
 	padding: 1em;
@@ -62,7 +65,7 @@ nav a {
 #featured h3{
 	font-size:16px;
 	font-style:italic;
-	padding-bottom:.25em;
+	padding-bottom:.5em;
 }
 
 footer{
