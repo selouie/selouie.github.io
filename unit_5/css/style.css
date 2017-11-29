@@ -15,7 +15,7 @@ header h1{
 	color: black;
 	text-align: center;
 	font-size: 96px;
-	padding: 2em;
+	padding: .5em;
 }
 
 nav {
@@ -46,23 +46,26 @@ nav a {
 #intro {
 	font-family: 'Karla', sans-serif;
 	padding: 8em 0;
+	margin: 0 auto;
 }
 
 #featured {
 	font-family:'Karla', sans-serif;
 	font-size:14px;
+	margin:0 auto;
 }
 
 #featured h2{
 	font-family: 'Amatic SC', cursive;
 	font-size: 48px;
-	padding:2em;
+	padding:.5em;
 
 }
 
 #featured h3{
 	font-size:16px;
 	font-style:italic;
+	padding-bottom:.25em;
 }
 
 footer{
