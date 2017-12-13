@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Karla|Sacramento');
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header{
+	text-align:center;
+}
+header h1{
+	font-family: 'Sacramento', cursive;
+	padding: 1em;
+}
+
+nav {
+	background:rgba(0,153,153,0.5);
+}
+
+nav a {
+	display:inline-block;
+	padding: 0 1em;
+	font-family: 'Amatic SC', cursive;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+
+.picture {
+	padding: .5em;
+	margin: 18px;
+}
+
+#intro h1{
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 48px;
+	border-bottom: 2px solid black;
+	display:inline-block;
+}
+
+#intro {
+	font-family: 'Karla', sans-serif;
+	padding: 8em 0;
+	margin: 36px;
+}
+
+#featured {
+	font-family:'Karla', sans-serif;
+	font-size:14px;
+	margin:36px;
+}
+
+#featured h2{
+	font-family: 'Amatic SC', cursive;
+	font-size: 48px;
+	padding:.5em;
+
+}
+
+#featured h3{
+	font-size:16px;
+	font-style:italic;
+	padding-bottom:.5em;
+}
+
+footer{
+	text-align:center;
+	font-family:'Karla', sans-serif;
+}
