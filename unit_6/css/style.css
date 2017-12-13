@@ -2,11 +2,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 header{
-	text-align:center;
-}
-header h1{
-	font-family: 'Sacramento', cursive;
-	padding: 1em;
+	align-content:center;
 }
 
 nav {
@@ -14,17 +10,16 @@ nav {
 }
 
 nav a {
-	display:inline-block;
+	float: left;
 	padding: 0 1em;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC', sans-serif;
 	font-size: 24px;
 	color: white;
 	text-align: center;
 }
 
 .picture {
-	padding: .5em;
-	margin: 18px;
+	padding: .1em;
 }
 
 #intro h1{
@@ -41,20 +36,20 @@ nav a {
 	margin: 36px;
 }
 
-#featured {
+p {
 	font-family:'Karla', sans-serif;
 	font-size:14px;
 	margin:36px;
 }
 
-#featured h2{
+h2{
 	font-family: 'Amatic SC', cursive;
 	font-size: 48px;
 	padding:.5em;
 
 }
 
-#featured h3{
+h3{
 	font-size:16px;
 	font-style:italic;
 	padding-bottom:.5em;
