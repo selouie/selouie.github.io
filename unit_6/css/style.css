@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Karla|Sacramento');
 * { margin:0; padding:0; box-sizing:border-box; }
 
-header{
-	align-content:center;
+@font-face {
+ font-family: "Shorthalt";
+ src: url("/fonts/Shorthalt_thin.otf") format("otf"),
+ font-weight: thin;
+}
+
+header h1{
+	font-family:'Shorthalt', sans-serif;
+	text-align:center;
+	font-size: 96px;
 }
 
 nav a {
