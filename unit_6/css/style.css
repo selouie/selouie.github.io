@@ -15,10 +15,6 @@ nav a {
 	text-align: center;
 }
 
-.picture {
-	padding: .1em;
-}
-
 #intro h1{
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
@@ -33,27 +29,32 @@ nav a {
 	margin: 36px;
 }
 
-p {
+.p {
 	font-family:'Karla', sans-serif;
 	font-size:14px;
 	margin:36px;
 }
 
-h2{
+.h2{
 	font-family: 'Amatic SC', cursive;
-	font-size: 48px;
+	font-size: 36px;
 	padding:.5em;
 }
 
-h3{
+.h3{
 	font-size:16px;
 	font-style:italic;
 	padding-bottom:.5em;
 }
 
-a{
+.a{
 	text-align:center;
 	font-family:'Karla', sans-serif;
+}
+
+#recentblogs{
+	float:left;
+	padding:12px;
 }
 
 footer{
