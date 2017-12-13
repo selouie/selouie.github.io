@@ -25,20 +25,6 @@ nav a {
 	text-decoration: none;
 }
 
-#intro h1{
-	text-align: center;
-	font-family: 'Amatic SC', cursive;
-	font-size: 48px;
-	border-bottom: 2px solid black;
-	display:inline-block;
-}
-
-#intro {
-	font-family: 'Karla', sans-serif;
-	padding: 8em 0;
-	margin: 36px;
-}
-
 p {
 	font-family:'Karla', sans-serif;
 	font-size:14px;
@@ -48,9 +34,11 @@ h2{
 	font-family: 'Amatic SC', cursive;
 	font-size: 36px;
 	padding:.5em;
+	border-bottom: 1px rgba(0,153,153,0.5);
 }
 
 h3{
+	font-family:'Karla', sans-serif;
 	font-size:16px;
 	font-style:italic;
 	padding-bottom:.5em;
@@ -61,20 +49,44 @@ a{
 	font-family:'Karla', sans-serif;
 }
 
-#three_column{
-	border:1px rgba(0,153,153,0.5);
+#featured img{
+	float:left;
+	width:50%;
+}
+
+#featured article{
+	float:left;
+	width:50%;
+}
+
+#featured h1{
+	text-align:center;
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 48px;
+	border-bottom: 2px solid black;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 #left{
 	float:left;
 	width:30%;
 	padding: 20px;
+	border-right: 1px rgba(0,153,153,0.5);
 }
 
 #center{
 	float:left;
 	width:30%;
 	padding: 20px;
+	border-right: 1px rgba(0,153,153,0.5)
 }
 
 #right{
