@@ -3,7 +3,7 @@
 
 @font-face {
  font-family: "Shorthalt";
- src: url("/fonts/Shorthalt_thin.otf") format("otf"),
+ src: url("../fonts/Shorthalt_thin.otf") format("otf"),
  font-weight: thin;
 }
 
@@ -20,9 +20,9 @@ nav{
 }
 
 nav a {
-	display; inline block;
-	padding: 2em
-	width:100px;
+	display: inline-block;
+	padding: 24px;
+	width:150px;
 	font-family: 'Amatic SC', sans-serif;
 	font-size: 24px;
 	color: white;
@@ -31,8 +31,8 @@ nav a {
 	text-decoration: none;
 }
 
-nav a:hover{
-	background color:rgb(0,153,153);
+nav a:hover {
+	background-color:rgb(0,153,153);
 }
 
 p {
@@ -68,7 +68,7 @@ a{
 }
 
 #featured img{
-	border-radius: 8px;
+	border-radius: 24px;
 	float:left;
 	max-width:50%;
 	padding:20px;
@@ -90,21 +90,27 @@ a{
 }
 
 #left{
-	float:left;
+	display:inline-block;
+	text-align:center;
+	height:500px;
 	width:30%;
 	padding: 20px;
 	border-right: 1px solid rgb(0,153,153);
 }
 
 #center{
-	float:left;
+	display:inline-block;
+	text-align:center;
+	height:500px;
 	width:30%;
 	padding: 20px;
 	border-right: 1px solid rgb(0,153,153);
 }
 
 #right{
-	float:left;
+	display:inline-block;
+	text-align:center;
+	height:500px;
 	width:30%;
 	padding: 20px;
 }
